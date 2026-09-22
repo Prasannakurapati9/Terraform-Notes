@@ -14,7 +14,7 @@ provider "azurerm" {
 
 terraform {
   backend "azurerm" {
-    access_key           = "5IpAr9OamOcAV+0+ygUy7l731qr5oCr0bH8WkOSHYDjNVlX4Xg17m4FMsyzDnpG66lzUhfYT2Tv6+AStdE9E2A=="  # Can also be set via `ARM_ACCESS_KEY` environment variable.
+    access_key           = "************************************************************"  # Can also be set via `ARM_ACCESS_KEY` environment variable.
     storage_account_name = "backendstg01"                                 # Can be passed via `-backend-config=`"storage_account_name=<storage account name>"` in the `init` command.
     container_name       = "backend-container"                                  # Can be passed via `-backend-config=`"container_name=<container name>"` in the `init` command.
     key                  = "prod.terraform.tfstate"                   # Can be passed via `-backend-config=`"key=<blob key name>"` in the `init` command.

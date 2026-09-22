@@ -1,0 +1,4 @@
+
+variable "prefixes" {
+   type = string
+}
